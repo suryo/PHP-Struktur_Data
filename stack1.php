@@ -1,5 +1,6 @@
 <?php
 /* 
+*PESAN TERSEMBUNYI
 *coba deh habiskan waktu kalian buat belajar coding-coding di bawah ini 4 tahun ajah.
 *lupakan sementara urusan asmara, fokus kan sejenak dengan tujuan belajar
 *bodo amat sama pacar yang sok mengekang kebebasan bercoding
