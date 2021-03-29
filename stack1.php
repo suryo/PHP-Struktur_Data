@@ -11,7 +11,7 @@
 *gelar sarjana dan pekerjaan yang mapan sudah diraih
 *saat nya kalian bilang ke calon mertua...
 *titik koma aja kuperhatikan, apalagi anak bapak..
-*==sya terima nikahnya dia binti anu dengan mas kawin saham microsoft 51%....sahhhhhh*
+*==saya terima nikahnya dia binti anu dengan mas kawin saham microsoft 51%....sahhhhhh*
  */
 
 //deklarasi batasan array
