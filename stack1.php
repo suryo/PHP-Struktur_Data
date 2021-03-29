@@ -1,18 +1,19 @@
 <?php
-$limit = 10;
+//deklarasi batasan array
+$limit = 2;
 function pembukaan(){
     echo "Hari ini kita belajar stack dengan PHP";
     echo "<br>";
   }
 
 function pop(){
-    echo "ini method pop-untuk mengeluarkan data terakhir";
+    echo "ini method pop-untuk mengeluarkan isi data terakhir";
     echo "<br>";
   }
 
 function push($array = array(),$isi,$limit){
     //echo "ini method push-untuk memasukkan data";
-    if (count($array) < $limit)
+    if (count($array) <= $limit)
     {
         array_push($array,$isi);
         return $array;
@@ -43,17 +44,16 @@ function peek($array = array(), $limit){
    
   } 
 
+function isEmpty($array = array()){
+    return empty($array);
+  }
+
 function top(){
     echo "ini method top";
     echo "<br>";
   }
 
-function isEmpty($array = array()){
-    echo "ini check apakah array kosong";
-    echo "<br>";
-  }
-
-function isFull(){
+function isFull($array = array()){
     echo "ini check apakah array penuh";
     echo "<br>";
   } 
@@ -68,6 +68,13 @@ $a[1] = 2;
 $a = push($a, 3, $limit);
 $data_teratas = peek($a, $limit);
 echo $data_teratas;
+if (isEmpty($a)){
+    echo "array kosong";
+}
+else
+{
+    echo "array terisi";
+}
 //var_dump($a);
 
 
