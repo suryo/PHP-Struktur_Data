@@ -1,7 +1,7 @@
 <?php
 /* 
 *PESAN TERSEMBUNYI
-*coba deh habiskan waktu kalian buat belajar coding-coding di bawah ini 4 tahun ajah.
+*coba deh habiskan waktu kalian buat belajar 100 baris coding di bawah ini sebentar ajah.
 *lupakan sementara urusan asmara, fokus kan sejenak dengan tujuan belajar
 *bodo amat sama pacar yang sok mengekang kebebasan bercoding
 *sok nangis minta perhatian, padahal tau kita ini masih berjuang dengan impian
@@ -23,9 +23,10 @@ function pembukaan(){
     echo "<br>";
   }
 
-function pop(){
-    echo "ini method pop-untuk mengeluarkan isi data terakhir";
-    echo "<br>";
+function pop($array = array()){
+    //ini method pop-untuk mengeluarkan isi data terakhir
+    array_pop($array);
+    return $array;
   }
 
 function push($array = array(),$isi,$limit){
@@ -65,36 +66,35 @@ function isEmpty($array = array()){
     return empty($array);
   }
 
-function top(){
-    echo "ini method top";
-    echo "<br>";
-  }
-
-function isFull($array = array()){
-    echo "ini check apakah array penuh";
-    echo "<br>";
-  } 
-
-
+//baris code dibawah ini merupakan salah satu contoh menjalankan function
 pembukaan();
-
+//berikut adalah code untuk deklarasi variabel array dengan nama a
 $a = array();
+//array a index ke 0 diisi dengan 1
 $a[0] = 1;
+//array a index ke 1 diisi dengan 2
 $a[1] = 2;
 
+//menjalankan method push pada array a
 $a = push($a, 3, $limit);
+//melakukan cek data teratas pada array dengan method peek
 $data_teratas = peek($a, $limit);
+//menampilkan data teratas
 echo $data_teratas;
+
+//cek apakah array a kosong atau tidak, dengan memanggil method isEpty untuk melakukan pengecekan
 if (isEmpty($a)){
+    //menampilkan pesan array kosong ketika array kosong
     echo "array kosong";
 }
 else
 {
+    //menampilkan pesan array terisi ketika array tidak kosong
     echo "array terisi";
 }
-//var_dump($a);
 
-
+$a = pop($a);
+var_dump($a);
 
 
 ?>
