@@ -5,14 +5,15 @@
 *lupakan sementara urusan asmara, fokus kan sejenak dengan tujuan belajar
 *bodo amat sama pacar yang sok mengekang kebebasan bercoding
 *sok nangis minta perhatian, padahal tau kita ini masih berjuang dengan impian
-*mereka bukan pasangan hidup yang sudah sah, kenapa kita harus susah susah
+*mereka bukan pasangan hidup yang sudah sah, kenapa kita harus rela susah susah
 *please..... tahan dulu urusan percintaan
 *tunggu kalian benar benar siap
 *dan...ketika masa itu telah tiba, ketika 4 tahun telah terlewati
 *gelar sarjana dan pekerjaan yang mapan sudah diraih
 *saat nya kalian bilang ke calon mertua...
 *titik koma aja kuperhatikan, apalagi anak bapak..
-*==saya terima nikahnya dia binti anu dengan mas kawin saham microsoft 51%....sahhhhhh*
+*==saya terima nikahnya dia binti anu dengan mas kawin saham microsoft 51%....sahhhhhh==
+*PESAN INI DIPERSEMBAHKAN OLEH : GUWE YANG PERNAH BUANG WAKTU SAMA PACAR
  */
 
 //deklarasi batasan array
